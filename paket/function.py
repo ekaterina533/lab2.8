@@ -5,7 +5,7 @@ def function1(c, k):
     def function2(s):
         s = s.replace(c, k)
         st = ""
-        for i in range(0, len(s)):
+        for i, t in enumerate(s):
             if s[i] != s[i - 1]:
                 st += s[i]
         return st
