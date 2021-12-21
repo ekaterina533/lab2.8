@@ -2,9 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-base = []
-
-
 def add():
     name = input("Фамилия, Имя? ")
     number = input("Номер телефона? ")
@@ -22,5 +19,3 @@ def add():
     base.append(bases)
     if len(base) > 1:
         base.sort(key=lambda item: item.get('name', ''))
-
-

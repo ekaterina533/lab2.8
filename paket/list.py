@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-base = []
-
 
 def list():
     line = '+-{}-+-{}-+-{}-+-{}-+'.format(

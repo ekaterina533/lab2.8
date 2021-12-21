@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-base = []
 
 
 def select():
-    command = input(">>> ").lower()
     parts = command.split(' ', maxsplit=2)
     sel = (parts[1])
     count = 0

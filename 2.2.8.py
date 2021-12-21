@@ -10,9 +10,8 @@
 # нет, выдать на дисплей соответствующее сообщение
 
 
-import sys, help, select
-from add import add
-from list import list
+import sys
+from paket import add, list, help, select
 
 
 if __name__ == '__main__':
@@ -23,13 +22,13 @@ if __name__ == '__main__':
             break
 
         elif command == 'add':
-            add()
+           add()
 
         elif command == 'list':
             list()
 
         elif command.startswith('select '):
-            select.select()
+           select.select()
 
         elif command == 'help':
             help.help()
